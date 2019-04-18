@@ -7,7 +7,12 @@ public enum StateID
     Patrol = 1,
     Lari = 2,
     Serang = 3,
-    Dead = 4
+    Dead = 4,
+    Hunt =5,
+    Folow = 6,
+    CollectItem=7,
+    RunAway = 8
+    
 }
 
 public abstract class FSMState : MonoBehaviour

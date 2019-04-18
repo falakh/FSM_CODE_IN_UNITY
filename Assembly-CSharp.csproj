@@ -59,18 +59,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EmpetyHealth.cs" />
     <Compile Include="Assets\FSMcore\FSMstate.cs" />
     <Compile Include="Assets\FSMcore\FSMSystem.cs" />
     <Compile Include="Assets\FSMcore\FSMtransition.cs" />
-    <Compile Include="Assets\FSMswordman.cs" />
-    <Compile Include="Assets\StateDead.cs" />
-    <Compile Include="Assets\StateLari.cs" />
-    <Compile Include="Assets\StatePatrol.cs" />
-    <Compile Include="Assets\StateSerang.cs" />
-    <Compile Include="Assets\TransAman.cs" />
-    <Compile Include="Assets\TransSawEnemy.cs" />
-    <Compile Include="Assets\TransWeak.cs" />
+    <Compile Include="Assets\Script\Entity\PlayerEntity.cs" />
+    <Compile Include="Assets\Script\State\CollectItemState.cs" />
+    <Compile Include="Assets\Script\State\FollowState.cs" />
+    <Compile Include="Assets\Script\State\HuntState.cs" />
+    <Compile Include="Assets\Script\State\RunAwayState.cs" />
+    <Compile Include="Assets\Script\Transisi\BadItemNear.cs" />
+    <Compile Include="Assets\Script\Transisi\EnemyIsNearTransition.cs" />
+    <Compile Include="Assets\Script\Transisi\MedkitIsNearTransition.cs" />
+    <Compile Include="Assets\Script\Transisi\NoEnemyTransition.cs" />
+    <Compile Include="Assets\Script\Transisi\NoITemArraoundTransition.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>A:/Project Unity/KbGame/FSM_CODE/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
